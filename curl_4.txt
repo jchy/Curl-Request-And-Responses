@@ -1,0 +1,13 @@
+Problem.1:- make a post request using the /todos endpoint
+          - use the data flag
+
+    Request  :~ < curl --data "userId=1&title=delectus aut autem&completed=false&body=Content" https://jsonplaceholder.typicode.com/todos  >
+    Response :~ It has created the following POST:-
+                "{
+                    "userId": "1",
+                    "title": "delectus aut autem",
+                    "completed": "false",
+                    "body": "Content",
+                    "id": 201
+                }% "
+     
