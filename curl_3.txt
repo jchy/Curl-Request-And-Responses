@@ -1,0 +1,6 @@
+Problem.1:- make a get request using the /users endpoint and retrieve the 5rd user
+          - use the explicit flag ( which means use -X )
+          - store into a file called 5_X.txt
+    Request  :~ < curl -X GET -o 5_X.txt https://jsonplaceholder.typicode.com/users/5 >
+    Response :~ "This will save get the 5th user data and save it into a 5_X.txt file"
+     

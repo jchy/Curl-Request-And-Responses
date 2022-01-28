@@ -1,0 +1,5 @@
+Problem.1:- make a get request using the /users endpoint and retrieve the 3rd user
+            store into a file called 3.txt
+    Request  :~ < curl -o 3.txt https://jsonplaceholder.typicode.com/users/3 >
+    Response :~ "it will download a file of response in 3.txt file"
+    
