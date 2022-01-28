@@ -1,0 +1,15 @@
+Problem.1:- ~ Use the following API
+            ~ https://jsonplaceholder.typicode.com/
+            ~ make a post request using the /todos endpoint
+            ~ explicit flag ( which means use -X )
+
+    Request  :~   < curl -X POST --header "Content-Type:application/json" -d "{\"userId\": \"1\",\"title\":\"delectus aut autem\",\"completed\":\"false\",\"body\":\"Content\" }" https://jsonplaceholder.typicode.com/todos >
+    Response :~   It has created the following POST:-
+                    "{
+                        "userId": "1",
+                        "title": "delectus aut autem",
+                        "completed": "false",
+                        "body": "Content",
+                        "id": 201
+                    }% "
+     
